@@ -53,7 +53,7 @@ Deploying and dealing with errors is a serious issue that we dealt with.
 
 
 Deployment link -
-study-plan-wheat.vercel.app
+https://study-plan-wheat.vercel.app/
 
 Team Members -
 •	Sahithi
