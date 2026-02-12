@@ -8,15 +8,16 @@ interface Track {
 }
 
 const tracks: Track[] = [
-  { name: "Binaural Focus (40Hz)", emoji: "🧠", src: "public\\music\\binaural-beats-40hz.mp3" },
-  { name: "Binaural Deep Focus (14Hz)", emoji: "🎯", src: "public\\music\\Deepfocus.mpeg"},
-  { name: "White Noise",  emoji: "⚪", src: "public\\music\\01-White-Noise-10min.mp3 " },
-  { name: "Pink Noise",  emoji: "🩷", src: "public\\music\\Pink.mpeg" },
-  { name: "Brown Noise",  emoji: "🟤", src: "public\\music\\Brown noise.mp3" },
-  { name: "Rain Ambience", emoji: "🌧️", src:"public\\music\\Rain Ambience.mp3" },
-  { name: "Ocean Waves",  emoji: "🌊", src:"public\\music\\Ocean waves.mp3 " },
-  { name: "Forest Birds", emoji: "🌲", src:"public\\music\\Forest birds.mp3"  },
+  { name: "Binaural Focus (40Hz)", emoji: "🧠", src: "/music/binaural-beats-40hz.mp3" },
+  { name: "Binaural Deep Focus (14Hz)", emoji: "🎯", src: "/music/Deepfocus.mpeg" },
+  { name: "White Noise", emoji: "⚪", src: "/music/01-White-Noise-10min.mp3" },
+  { name: "Pink Noise", emoji: "🩷", src: "/music/Pink.mpeg" },
+  { name: "Brown Noise", emoji: "🟤", src: "/music/Brown noise.mp3" },
+  { name: "Rain Ambience", emoji: "🌧️", src: "/music/Rain Ambience.mp3" },
+  { name: "Ocean Waves", emoji: "🌊", src: "/music/Ocean waves.mp3" },
+  { name: "Forest Birds", emoji: "🌲", src: "/music/Forest birds.mp3" },
 ];
+
 
 const MusicSection = () => {
   const [playingIndex, setPlayingIndex] = useState<number | null>(null);
