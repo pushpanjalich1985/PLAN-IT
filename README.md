@@ -46,13 +46,14 @@ Writing logic in code and prompt engineering.
 How to coordinate in a team and use GitHub. 
 Deploying and dealing with errors is a serious issue that we dealt with.
 
-
-
-
  Screenshots -
 ![Home Screen](Screenshots/HOMEPAGE.jpeg)
 ![Timetable](Screenshots/TIMETABLE.jpeg)
 ![Music](Screenshots/MUSIC.jpeg)
+
+
+Deployment link -
+study-plan-wheat.vercel.app
 
 Team Members -
 •	Sahithi
