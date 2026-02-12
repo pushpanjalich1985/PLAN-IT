@@ -52,6 +52,9 @@ Deploying and dealing with errors is a serious issue that we dealt with.
 ![Music](Screenshots/MUSIC.jpeg)
 
 
+
+
+
 Deployment link -
 https://study-plan-wheat.vercel.app/
 
