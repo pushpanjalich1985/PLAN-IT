@@ -32,9 +32,21 @@ Tech Stack -
  Installation Guide -
 If running locally:
 1.	Clone the repository:
-2.	git clone https://github.com/pushpanjalich1985/PLAN-IT.git
-3.	Open the project folder.
-4.	Open index.html in your browser.
+2. git clone https://github.com/pushpanjalich1985/PLAN-IT.git
+3.	Navigate into the Project Directory
+4.	Install Dependencies
+5.	Open the project folder in your respecive IDE.
+6.	Run the Project (npm run dev)
+
+
+Learnings & Challenges -
+
+We learnt to address and fix bugs.
+Writing logic in code and prompt engineering.
+How to coordinate in a team and use GitHub. 
+Deploying and dealing with errors is a serious issue that we dealt with.
+
+
 
 
  Screenshots -
