@@ -8,14 +8,14 @@ interface Track {
 }
 
 const tracks: Track[] = [
-  { name: "Binaural Focus (40Hz)", emoji: "🧠", src: "D:\\Projects\\pushpanjali\\AndroidStudioProjects\\Hackathon\\public\\music\\binaural-beats-40hz.mp3" },
-  { name: "Binaural Deep Focus (14Hz)", emoji: "🎯", src: "D:\\Projects\\pushpanjali\\AndroidStudioProjects\\Hackathon\\public\\music\\Deepfocus.mpeg"},
-  { name: "White Noise",  emoji: "⚪", src: "D:\\Projects\\pushpanjali\\AndroidStudioProjects\\Hackathon\\public\\music\\01-White-Noise-10min.mp3" },
-  { name: "Pink Noise",  emoji: "🩷", src: "D:\\Projects\\pushpanjali\\AndroidStudioProjects\\Hackathon\\public\\music\\Pink.mpeg" },
-  { name: "Brown Noise",  emoji: "🟤", src: "D:\\Projects\\pushpanjali\\AndroidStudioProjects\\Hackathon\\public\\music\\Brown noise.mp3" },
-  { name: "Rain Ambience", emoji: "🌧️", src:"D:\\Projects\\pushpanjali\\AndroidStudioProjects\\Hackathon\\public\\music\\Rain Ambience.mp3" },
-  { name: "Ocean Waves",  emoji: "🌊", src:"D:\\Projects\\pushpanjali\\AndroidStudioProjects\\Hackathon\\public\\music\\Ocean waves.mp3" },
-  { name: "Forest Birds", emoji: "🌲", src:"D:\\Projects\\pushpanjali\\AndroidStudioProjects\\Hackathon\\public\\music\\Forest birds.mp3"  },
+  { name: "Binaural Focus (40Hz)", emoji: "🧠", src: "public\\music\\binaural-beats-40hz.mp3" },
+  { name: "Binaural Deep Focus (14Hz)", emoji: "🎯", src: "public\\music\\Deepfocus.mpeg"},
+  { name: "White Noise",  emoji: "⚪", src: "public\\music\\01-White-Noise-10min.mp3 " },
+  { name: "Pink Noise",  emoji: "🩷", src: "public\\music\\Pink.mpeg" },
+  { name: "Brown Noise",  emoji: "🟤", src: "public\\music\\Brown noise.mp3" },
+  { name: "Rain Ambience", emoji: "🌧️", src:"public\\music\\Rain Ambience.mp3" },
+  { name: "Ocean Waves",  emoji: "🌊", src:"public\\music\\Ocean waves.mp3 " },
+  { name: "Forest Birds", emoji: "🌲", src:"public\\music\\Forest birds.mp3"  },
 ];
 
 const MusicSection = () => {
