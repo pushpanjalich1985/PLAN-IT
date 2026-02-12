@@ -46,7 +46,7 @@ const audioRef = useRef<HTMLAudioElement | null>(null);
   }, [volume, isMuted]);
 
 
-  const playTrack = (index: number) => {
+    const playTrack = async (index: number) => {
     if (playingIndex === index) {
       stopAudio();
       setPlayingIndex(null);
@@ -54,15 +54,19 @@ const audioRef = useRef<HTMLAudioElement | null>(null);
     }
 
     stopAudio();
-  const audio = new Audio(tracks[index].src);
-      audio.loop = true;
-      audio.volume = isMuted ? 0 : volume;
 
-      audio.play().catch(console.error);
+    const audio = new Audio(tracks[index].src);
+    audio.loop = true;
+    audio.volume = isMuted ? 0 : volume;
 
+    try {
+      await audio.play(); // 👈 IMPORTANT
       audioRef.current = audio;
       setPlayingIndex(index);
-    };
+    } catch (err) {
+      console.error("Audio play blocked:", err);
+    }
+  };
 return (
     <div className="animate-slide-in space-y-6">
       <h2 className="text-2xl font-display font-bold text-foreground">
